@@ -30,7 +30,7 @@
 
 ### 3.3 Evaluación de los Modelos
 
-#### 🔹 Regresión Logística
+###🔹 Regresión Logística
 ```text
 Matriz de Confusión:
 [[1489   63]
@@ -40,7 +40,7 @@ Classification Report:
                precision    recall  f1-score   support
            0       0.76      0.96      0.85      1552
            1       0.59      0.16      0.25       561
-###Árbol de decisión
+### Árbol de decisión
 Matriz de Confusión:
 [[1401  151]
  [ 381  180]]
@@ -49,9 +49,9 @@ Classification Report:
                precision    recall  f1-score   support
            0       0.79      0.90      0.84      1552
            1       0.54      0.32      0.40       561
-###3.4 Visualización
+### 3.4 Visualización
 
-###3.5 Comparación
+### 3.5 Comparación
 
 Exactitud: Árbol de Decisión 0.75 > Regresión Logística 0.74
 
@@ -59,7 +59,7 @@ Regresión logística: mejor para detectar clientes que no cancelan.
 
 Árbol de Decisión: mejor balance general, leve overfitting en clase minoritaria.
 
-###4. Interpretación e Importancia de Variables
+### 4. Interpretación e Importancia de Variables
 
 Variables más relevantes: tenure y SeniorCitizen.
 
@@ -67,7 +67,7 @@ Consistentes entre Regresión Logística y Árbol de Decisión.
 
 KNN/SVM/otros no implementados en este desafío.
 
-###5. Conclusiones
+### 5. Conclusiones
 
 Factores principales de cancelación:
 
