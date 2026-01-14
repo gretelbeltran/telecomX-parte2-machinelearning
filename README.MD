@@ -31,7 +31,7 @@
 ### 3.3 Evaluación de los Modelos
 
 ###🔹 Regresión Logística
-```text
+
 Matriz de Confusión:
 [[1489   63]
  [ 470   91]]
@@ -68,17 +68,10 @@ Consistentes entre Regresión Logística y Árbol de Decisión.
 KNN/SVM/otros no implementados en este desafío.
 
 ### 5. Conclusiones
-
 Factores principales de cancelación:
-
 Tenure bajo → mayor riesgo de churn
-
 SeniorCitizen → riesgo ligeramente mayor
-
 Estrategias de retención:
-
 Incentivos y comunicación temprana para clientes nuevos.
-
 Programas de fidelización para adultos mayores.
-
 Árbol de Decisión ligeramente superior; combinación de modelos puede mejorar predicción.
