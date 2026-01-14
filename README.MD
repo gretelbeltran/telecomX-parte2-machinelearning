@@ -1,5 +1,25 @@
 # Telecom X – Parte 2: Predicción de Cancelación (Churn)
 
+# Descripción del Proyecto
+
+Este repositorio contiene el desarrollo del Desafío Telecom X – Parte 2, enfocado en la construcción y evaluación de modelos predictivos para anticipar la cancelación de clientes (churn) en una empresa de telecomunicaciones.
+
+El proyecto utiliza datos previamente limpiados y transformados en la Parte 1 del desafío, y aplica técnicas de estadística, análisis de correlación y machine learning para identificar los principales factores asociados a la cancelación de servicios.
+
+El objetivo final es generar insights estratégicos que ayuden a la empresa a reducir la pérdida de clientes mediante decisiones basadas en datos.
+
+# Objetivo
+
+Desarrollar un pipeline inicial de modelado predictivo capaz de identificar clientes con alta probabilidad de cancelar su servicio, permitiendo a Telecom X anticiparse al problema del churn y diseñar estrategias de retención más efectivas.
+
+# Contexto del Desafío
+
+Tras un desempeño exitoso en el análisis exploratorio de datos (Parte 1), el rol evoluciona a Analista Junior de Machine Learning, formando parte del equipo encargado de crear soluciones predictivas para un problema real de negocio.
+
+Este desafío simula un entorno empresarial real, donde la ciencia de datos se aplica como herramienta estratégica.
+
+# Desarrollo del proyecto
+
 ## 1. Preparación de Datos
 - Se cargó el archivo CSV tratado previamente (`telecom_tratado.csv`).
 - Eliminadas columnas irrelevantes (`customerID`) y extraídas variables útiles de columnas de tipo diccionario (`tenure`, `SeniorCitizen`, `gender`).
